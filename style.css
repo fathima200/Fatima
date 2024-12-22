@@ -64,7 +64,7 @@ nav,
   align-items: left;
    margin-bottom:20px ;
    font-size: x-large;
-   /* line-height: 50px; */
+   
    margin-left: 100px;
 }
 
@@ -84,8 +84,6 @@ nav,
 
 .about-container {
     background-color:#EDDFE8;
-    /* background: transparent 50px; */
-    /* background:transparent; */
     text-align: center;
     padding: 20px;
     /* max-width: 50%; */
