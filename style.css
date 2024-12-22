@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(pawel-czerwinski-Bz_JX1COlrE-unsplash.jpg);
+    background-size: 100%;
+ }
+nav,
+.nav-links{
+    display: flex;  
+    /* background-color: rgb(210, 31, 31);     */
+}
+
+    header {
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #f3bddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+    
+ .nav-links {
+    gap: 50px;
+    list-style: none;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px  10px;
+    }
+
+.nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-decoration-color: rgb(255, 251, 251);
+}
+
+.logo{
+    display: flex;
+   /* justify-content: end; */
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-right: 200px;
+    
+}
+
+
+
+#Home {
+    margin-top: 100px;
+    display: flex;
+   flex-direction: column;
+    padding: 30px; 
+   align-content: center;
+  align-items: left;
+   margin-bottom:20px ;
+   font-size: x-large;
+   /* line-height: 50px; */
+   margin-left: 100px;
+}
+
+.Lets-Work-Together {
+    padding:  10px 0px;
+    background-color: rgb(0, 0, 0);
+    border:none;
+    border-radius: 10px;
+     cursor: pointer;
+    margin-top: 20px;
+    width:150px ;
+   color: white;
+   box-shadow: 0 4px 4px rgb(223, 220, 220);
+   font-size: 15px;
+   
+}
+
+.about-container {
+    background-color:#EDDFE8;
+    /* background: transparent 50px; */
+    /* background:transparent; */
+    text-align: center;
+    padding: 20px;
+    /* max-width: 50%; */
+    display: flex;
+    flex-direction: row;
+     margin-top: 100px;
+    
+}
+   
+
+.about-text{
+   margin-top: 50px;
+    max-width: 500px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.about-image img {
+   width:300px;
+    height:300px;
+      border-radius: 50%;
+      margin-left: 200px;
+      margin-left: 200px;
+    
+     }
+
+     #About h2 {
+        font-size: 40px;
+     }   
+
+#About p {
+    font-size: larger;
+}
+
+
+
+.skills-section {
+ /* background-color: #fff2f8; */
+    margin-top: 50PX;
+    padding: 50px;
+    text-align: center;
+   
+}
+
+.skills-section h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+        text-align: center;
+}
+
+.skills-flex {
+    display: flex;
+    flex-direction: row;
+     margin-bottom: 20px;
+    gap: 20px;
+}
+
+
+.skill-box {
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #fdcfe7;
+    /* background: transparent ; */
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+
+
+.Explore-Projects {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.Explore-Projects h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.project-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+
+   
+
+    }
+
+    .project-box {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(242, 219, 234);
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: larger;
+        box-shadow: 0 5px 5px #000000;
+        border-radius: 10px;
+        cursor: pointer;
+        transition:0.2s;
+    }
+    .project-box:hover {
+        transform:scale(1.1);
+    }
+
+
+
+    #Contact {
+        justify-content: center;
+        flex-direction: column;
+        padding: 40px;
+        align-items: center;
+        gap: 20px;
+       text-align: center;
+       margin-top: 50px;
+       }
+
+        
+        .contact-info-upper-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            border-radius: 10px;
+            margin-top: 20px;
+            align-content: center;
+            margin: auto;
+            box-shadow: 0px 8px 20px  rgb(0, 0, 0);
+            align-items: center;
+            justify-content: space-around;
+            /* background-color: #d4c8cc; */
+           width: 700px;
+           height: 100px;
+           font-size: larger;
+        }
+        
+
+        .contact-info-upper-container:hover {
+            transform:scale(1.1);  }
+        
+        .contact-info-container {
+            display: flex;
+            align-items: center;
+            align-content: center;
+            gap:15px;
+            justify-content: center;
+            margin-bottom: 10px;
+            
+        }
+        #Contact h1 {
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        margin-bottom: 10px;
+     }
+    
+        .contact-info-container a{
+            color: rgb(0, 0, 0);
+            align-content: space-around;
+        }
+
+
+
+        #Footer {
+    
+            text-align:center;
+          margin-top: 50px;
+            margin-bottom: 20px;
+   
+           
+        }
